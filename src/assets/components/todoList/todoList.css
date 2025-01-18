@@ -1,11 +1,14 @@
 /* todoList.css */
 
+* {
+  box-sizing: border-box;
+}
 /* Container for the todo list */
 .todo-list {
   margin-top: 2rem;
   padding: 1rem;
   max-width: 600px;
-  width: 100%;
+  /* width: 100%; */
   margin-left: auto;
   margin-right: auto;
   background-color: #f4f4f4;
