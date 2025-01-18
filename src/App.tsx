@@ -9,7 +9,7 @@ function App() {
   console.log(todo)
   return (
     <>
-      <Input setTodo={setTodo} void={undefined} />
+      <Input setTodo={setTodo} />
       <TodoList setTodo={setTodo} todoList={todo} />
     </>
   );
