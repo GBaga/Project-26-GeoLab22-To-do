@@ -1,0 +1,66 @@
+/* todoList.css */
+
+/* Container for the todo list */
+.todo-list {
+  margin-top: 2rem;
+  padding: 1rem;
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for each todo item */
+.todo-item {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+
+  p {
+    margin: 0;
+  }
+}
+
+.todo-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Text styling for todo items */
+.todo-item-text {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+/* Styling for empty todo list message */
+.todo-empty-message {
+  font-size: 1.2rem;
+  color: #888;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Optional: Styling for button inside todo items (if applicable) */
+.todo-item button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-item button:hover {
+  background-color: #c0392b;
+}
